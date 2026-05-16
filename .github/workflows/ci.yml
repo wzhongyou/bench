@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: xcodebuild -project Bench.xcodeproj -scheme Bench -destination 'platform=macOS' build
+      - name: Test
+        run: xcodebuild -project Bench.xcodeproj -scheme Bench -destination 'platform=macOS' test
