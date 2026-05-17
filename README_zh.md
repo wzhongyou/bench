@@ -21,11 +21,11 @@
 ## 开发
 
 ```bash
-# 打开 Xcode
-open Bench.xcodeproj
+# 构建和运行
+swift run
 
-# 构建
-xcodebuild -project Bench.xcodeproj -scheme Bench build
+# 打开 Xcode
+open Package.swift
 ```
 
 ## 协议

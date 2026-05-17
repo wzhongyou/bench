@@ -3,7 +3,7 @@
 ## Getting Started
 
 1. Fork and clone the repo
-2. Open `Bench.xcodeproj` in Xcode
+2. Open `Package.swift` in Xcode
 3. Make your changes on a feature branch
 
 ## Conventions
@@ -15,6 +15,6 @@
 
 ## Before Submitting
 
-- Ensure the project builds without errors
-- Run the test suite: `xcodebuild -project Bench.xcodeproj -scheme Bench test`
+- Ensure the project builds without errors: `swift build`
+- Run the test suite: `swift test`
 - Keep changes minimal and focused

@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build
-        run: xcodebuild -project Bench.xcodeproj -scheme Bench -destination 'platform=macOS' build
+        run: swift build
       - name: Test
-        run: xcodebuild -project Bench.xcodeproj -scheme Bench -destination 'platform=macOS' test
+        run: swift test

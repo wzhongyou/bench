@@ -21,11 +21,11 @@ A macOS video editor with deep AI integration.
 ## Development
 
 ```bash
-# Open in Xcode
-open Bench.xcodeproj
+# Build and run
+swift run
 
-# Build
-xcodebuild -project Bench.xcodeproj -scheme Bench build
+# Open in Xcode
+open Package.swift
 ```
 
 ## License
