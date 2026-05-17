@@ -116,7 +116,6 @@ bench/
 │   │   └── Keychain/       # Key management
 │   └── Util/               # Utilities
 ├── docs/
-│   └── design/
 └── research/               # Research (gitignored)
 ```
 
